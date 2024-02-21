@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato:wght@700&family=Merriweather&family=Mooli&family=Nunito+Sans:opsz,wght@6..12,500&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./assets/newbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container h2{
+    font-size: 32px;
+    margin-bottom: 7px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(87, 175, 231);
+    color:white;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+.box{
+    width: 800px;
+    height: 600px;
+    background-image: url(./assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* padding: 15px; */
+    margin-bottom: 10px;
+    
+}
+.card{
+    width: 700px;
+    height: 400px;
+    background-color:transparent;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+}
+.card h1{
+    text-align: center;
+    padding: 10px;
+}
+.card p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.card button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(29, 81, 113);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.card button:hover{
+    background-color: black;
+    color: white;
+    width: 250px;
+}
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .container h2{
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .box{
+        width: 100%;
+        height: 530px;
+    }
+    .card{
+        width: 80%;
+        height: 400px;
+        
+    }
+    .card h1{
+        font-size: 17px;
+    }
+    .card button{
+        width: 160px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+}
